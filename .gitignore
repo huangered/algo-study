@@ -27,3 +27,7 @@
 *.exe
 *.out
 *.app
+
+# xcode debug code
+*.xcbkptlist
+

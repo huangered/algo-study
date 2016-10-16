@@ -6,10 +6,13 @@
 //  Copyright © 2016年 huangyi. All rights reserved.
 //
 
-#include <iostream>
+#include "linkedlist/reverse.h"
+#include "linkedlist/remove.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Reverse reverseDemo;
+    reverseDemo.test();
+    Remove removeDemo;
+    removeDemo.test();
     return 0;
 }
