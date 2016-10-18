@@ -8,11 +8,14 @@
 
 #include "linkedlist/reverse.h"
 #include "linkedlist/remove.h"
+#include "linkedlist/circlelist.h"
 
 int main(int argc, const char * argv[]) {
     Reverse reverseDemo;
     reverseDemo.test();
     Remove removeDemo;
     removeDemo.test();
+    CircleList circle;
+    circle.test();
     return 0;
 }
